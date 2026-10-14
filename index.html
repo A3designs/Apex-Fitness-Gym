@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>APEX-FITNESS</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/logo.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Edu QLD Hand", cursive;
+        }
+    </style>
+
+</head>
+
+<body class="bg-zinc-950 text-white">
+
+    <!-- HERO / FULL BACKGROUND -->
+    <section class="min-h-screen bg-[url('./images/im3.jpg')] bg-cover bg-center bg-fixed">
+
+        <!-- Navbar -->
+        <div class="max-w-screen-xl mx-auto px-4 pt-5">
+
+            <nav class="fixed top-5 left-1/2 -translate-x-1/2
+           z-50 w-[calc(100%-2rem)] max-w-screen-xl
+           flex items-center justify-between
+           bg-black/80 backdrop-blur-md
+           border border-zinc-700
+           h-20 px-6
+           rounded-full shadow-xl">
+
+                <!-- Logo + Brand -->
+                <a href="#" class="flex items-center gap-3">
+
+                    <img src="./images/logo.png" class="h-12 w-12 object-contain" alt="Apex Fitness Logo">
+
+                    <span class="text-2xl font-bold tracking-wide text-white">
+                        APEX
+                        <span class="text-orange-500">FITNESS</span>
+                    </span>
+
+                </a>
+
+                <!-- Navigation -->
+                <div class="hidden md:block">
+
+                    <ul class="flex items-center gap-2">
+
+                        <li>
+                            <a href="#" class="px-5 py-2 rounded-full
+                                       bg-orange-600 text-white
+                                       hover:bg-orange-500
+                                       transition duration-300">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="px-5 py-2 rounded-full
+                                       text-gray-300
+                                       hover:text-white
+                                       hover:bg-zinc-800/80
+                                       transition duration-300">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="px-5 py-2 rounded-full
+                                       text-gray-300
+                                       hover:text-white
+                                       hover:bg-zinc-800/80
+                                       transition duration-300">
+                                Programs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="px-5 py-2 rounded-full
+                                       text-gray-300
+                                       hover:text-white
+                                       hover:bg-zinc-800/80
+                                       transition duration-300">
+                                Trainers
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="px-5 py-2 rounded-full
+                                       text-gray-300
+                                       hover:text-white
+                                       hover:bg-zinc-800/80
+                                       transition duration-300">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Join Button -->
+                <a href="#" class="hidden md:block
+                           bg-orange-600
+                           px-6 py-3
+                           rounded-full
+                           font-semibold
+                           hover:bg-orange-500
+                           transition duration-300">
+                    Join Now
+                </a>
+
+            </nav>
+
+        </div>
+
+        <!-- Hero Content -->
+        <div class="max-w-screen-xl mx-auto px-4 min-h-screen
+                    flex items-center">
+
+            <div class="max-w-2xl">
+
+                <p class="text-orange-500 pt-10 text-lg font-semibold tracking-widest">
+                    APEX FITNESS
+                </p>
+
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight mt-3">
+                    BUILD YOUR
+                    <span class="text-orange-500">STRONGEST</span>
+                    SELF
+                </h1>
+
+                <p class="text-gray-300 text-lg mt-6 max-w-xl">
+                    Push your limits. Build your strength.
+                    Transform your body and become the best version of yourself.
+                </p>
+
+                <div class="flex gap-4 mt-8">
+
+                    <a href="#" class="bg-orange-600 px-7 py-3 rounded-full
+                               font-semibold
+                               hover:bg-orange-500
+                               transition duration-300">
+                        Join Now
+                    </a>
+
+                    <a href="#" class="border border-gray-500
+                               px-7 py-3 rounded-full
+                               font-semibold
+                               hover:bg-white hover:text-black
+                               transition duration-300">
+                        Explore Programs
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section Heading -->
+    <div class="text-center mb-16 pt-15 ">
+
+        <p class="text-orange-500 uppercase tracking-[0.3em] font-semibold">
+            About Us
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold text-white mt-3">
+            MORE THAN JUST A
+            <span class="text-orange-500">GYM</span>
+        </h2>
+
+        <p class="text-gray-400 max-w-2xl mx-auto mt-5">
+            At APEX FITNESS, we believe fitness is not just about looking strong.
+            It's about becoming stronger, healthier and more confident every day.
+        </p>
+
+    </div>
+
+
+    <!-- About Content -->
+    <div class="grid md:grid-cols-2 gap-5 items-center ">
+
+        <!-- Image -->
+        <div class="relative ps-5">
+
+            <img src="./images/im5.jpg" alt="APEX FITNESS Gym" class="w-full h-[500px] object-cover rounded-3xl">
+
+
+        </div>
+
+
+        <!-- Content -->
+        <div class="p-2">
+
+            <p class="text-orange-500 font-semibold uppercase tracking-widest">
+                Train Hard. Stay Strong.
+            </p>
+
+            <h3 class="text-3xl md:text-4xl font-bold text-white mt-3">
+                YOUR JOURNEY.
+                <span class="text-orange-500">OUR SUPPORT.</span>
+            </h3>
+
+            <p class="text-gray-400 leading-relaxed mt-6">
+                APEX FITNESS is a modern fitness community designed for people
+                who are ready to push their limits. Whether you're starting your
+                fitness journey or looking to reach the next level, our training
+                environment is built to keep you motivated.
+            </p>
+
+            <p class="text-gray-400 leading-relaxed mt-4">
+                With professional trainers, modern equipment and structured
+                workout programs, <br> we help you stay consistent and focused on
+                your goals.
+            </p>
+
+
+            <!-- Stats -->
+            <div class="grid grid-cols-3 gap-5 mt-10">
+
+                <div>
+                    <h4 class="text-3xl font-bold text-orange-500">
+                        10+
+                    </h4>
+
+                    <p class="text-gray-500 mt-1">
+                        Years Experience
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-3xl font-bold text-orange-500">
+                        5K+
+                    </h4>
+
+                    <p class="text-gray-500 mt-1">
+                        Members
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-3xl font-bold text-orange-500">
+                        20+
+                    </h4>
+
+                    <p class="text-gray-500 mt-1">
+                        Trainers
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Button -->
+            <a href="#"
+                class="inline-block mt-10 bg-orange-600 hover:bg-orange-500 text-white px-7 py-3 rounded-full font-semibold transition duration-300">
+                Learn More
+            </a>
+
+        </div>
+
+    </div>
+    <section class="">
+        <div class="main m-20 bg-zinc-800/80 rounded-3xl">
+            <p class="text-orange-500 uppercase ms-25 pt-15  font-semibold">
+                Our Service
+            </p>
+            <h3 class="ms-25 pt-8 text-3xl md:text-4xl font-bold text-white mt-3">
+                UNLEASH YOUR POTENTIAL:
+                <span class="text-orange-500">PREMIUM</span>
+            </h3>
+            <h3 class="ms-25 pt-2 text-3xl md:text-4xl font-bold text-white mt-3">
+                <span class="text-orange-500">FITNESS SERVICES </span>
+                TAILORED FOR YOU
+            </h3>
+            <p class="text-gray-400 pt-5 ms-25 leading-relaxed mt-4">
+                At APEX-FITNESS Gym, we offer personalized fitness services to help <br> you reach your goals.
+                From one-on-one training to high-energy Classes and <br> recovery sessions, we provide everything
+                you need to succeed in your fitness journey.
+            </p>
+            <div class="row grid md:grid-cols-4 m-4 pt-10 mb-4 gap-10">
+                <div class="relative group overflow-hidden rounded-3xl mb-4">
+
+                    <img src="./images/Gym Personal Trainer.jpeg" alt="personal" class="w-full h-[200px] object-cover
+                        group-hover:scale-105
+                        transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t
+                        from-black/80 via-transparent to-transparent">
+                    </div>
+
+                    <p class="absolute bottom-4 left-5
+                        text-white text-xl font-bold">
+                        Personal Trainer
+                    </p>
+
+                </div>
+                <div class="relative group overflow-hidden rounded-3xl mb-4">
+
+                    <img src="./images/Group Exercise Classes.jpeg" alt="fitness-class" class="w-full h-[200px] object-cover
+                        group-hover:scale-105
+                        transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t
+                        from-black/80 via-transparent to-transparent">
+                    </div>
+
+                    <p class="absolute bottom-4 left-5
+                        text-white text-xl font-bold">
+                        Fitness Class
+                    </p>
+
+                </div>
+                <div class="relative group overflow-hidden rounded-3xl mb-4">
+
+                    <img src="./images/swim.jpeg" alt="fitness-class" class="w-full h-[200px] object-cover
+                        group-hover:scale-105
+                        transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t
+                        from-black/80 via-transparent to-transparent">
+                    </div>
+
+                    <p class="absolute bottom-4 left-5
+                        text-white text-xl font-bold">
+                        Swimming Training
+                    </p>
+
+                </div>
+                <div class="relative group overflow-hidden rounded-3xl mb-4">
+
+                    <img src="./images/medi.jpeg" alt="fitness-class" class="w-full h-[200px] object-cover
+                        group-hover:scale-105
+                        transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t
+                        from-black/80 via-transparent to-transparent">
+                    </div>
+
+                    <p class="absolute bottom-4 left-5
+                        text-white text-xl  font-bold">
+                        Meditation
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
